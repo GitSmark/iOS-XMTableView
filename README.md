@@ -38,6 +38,11 @@ self.dataArray = [[NSMutableArray alloc] initWithArray:@[@[obj1, obj1, obj1, obj
 }
 ```
 
+建议搭配
+--------
+* [SDAutoLayout](https://github.com/gsdios/SDAutoLayout) 一行代码搞定自动布局！支持高度自适应.
+* [MJRefresh](https://github.com/CoderMJLee/MJRefresh) 强大的下拉刷新框架：一行代码搞定.
+
 联系方式
 --------
   有问题？请[推特](https://twitter.com/huangxy) 或者 [发邮件](mailto:huangxy8023@foxmail.com).
