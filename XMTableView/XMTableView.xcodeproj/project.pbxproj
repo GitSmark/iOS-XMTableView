@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F4C302E1CB6A7FB006E8CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C302D1CB6A7FB006E8CD5 /* main.m */; };
+		6F4C30311CB6A7FB006E8CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30301CB6A7FB006E8CD5 /* AppDelegate.m */; };
+		6F4C30341CB6A7FB006E8CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30331CB6A7FB006E8CD5 /* ViewController.m */; };
+		6F4C30371CB6A7FB006E8CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C30351CB6A7FB006E8CD5 /* Main.storyboard */; };
+		6F4C30391CB6A7FB006E8CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C30381CB6A7FB006E8CD5 /* Assets.xcassets */; };
+		6F4C303C1CB6A7FB006E8CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C303A1CB6A7FB006E8CD5 /* LaunchScreen.storyboard */; };
+		6F4C30471CB6A7FB006E8CD5 /* XMTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30461CB6A7FB006E8CD5 /* XMTableViewTests.m */; };
+		6F4C30521CB6A7FC006E8CD5 /* XMTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30511CB6A7FC006E8CD5 /* XMTableViewUITests.m */; };
+		6F4C30711CB6A883006E8CD5 /* XMTableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30621CB6A883006E8CD5 /* XMTableObject.m */; };
+		6F4C30721CB6A883006E8CD5 /* XMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */; };
+		6F4C30731CB6A883006E8CD5 /* XMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */; };
+		6F4C30741CB6A883006E8CD5 /* XMTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30681CB6A883006E8CD5 /* XMTestCell.m */; };
+		6F4C30751CB6A883006E8CD5 /* XMTestCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */; };
+		6F4C30761CB6A883006E8CD5 /* XMTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */; };
+		6F4C30771CB6A883006E8CD5 /* XMTestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */; };
+		6F4C30781CB6A883006E8CD5 /* XMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F4C30431CB6A7FB006E8CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4C30211CB6A7FB006E8CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4C30281CB6A7FB006E8CD5;
+			remoteInfo = XMTableView;
+		};
+		6F4C304E1CB6A7FC006E8CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F4C30211CB6A7FB006E8CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4C30281CB6A7FB006E8CD5;
+			remoteInfo = XMTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F4C30291CB6A7FB006E8CD5 /* XMTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C302D1CB6A7FB006E8CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F4C302F1CB6A7FB006E8CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F4C30301CB6A7FB006E8CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F4C30321CB6A7FB006E8CD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F4C30331CB6A7FB006E8CD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F4C30361CB6A7FB006E8CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F4C30381CB6A7FB006E8CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4C303B1CB6A7FB006E8CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F4C303D1CB6A7FB006E8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4C30421CB6A7FB006E8CD5 /* XMTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C30461CB6A7FB006E8CD5 /* XMTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTableViewTests.m; sourceTree = "<group>"; };
+		6F4C30481CB6A7FB006E8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4C304D1CB6A7FC006E8CD5 /* XMTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C30511CB6A7FC006E8CD5 /* XMTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTableViewUITests.m; sourceTree = "<group>"; };
+		6F4C30531CB6A7FC006E8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F4C30611CB6A883006E8CD5 /* XMTableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableObject.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableObject.h"; sourceTree = "<group>"; };
+		6F4C30621CB6A883006E8CD5 /* XMTableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableObject.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableObject.m"; sourceTree = "<group>"; };
+		6F4C30631CB6A883006E8CD5 /* XMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableViewCell.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewCell.h"; sourceTree = "<group>"; };
+		6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableViewCell.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewCell.m"; sourceTree = "<group>"; };
+		6F4C30651CB6A883006E8CD5 /* XMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableViewController.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewController.h"; sourceTree = "<group>"; };
+		6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableViewController.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewController.m"; sourceTree = "<group>"; };
+		6F4C30671CB6A883006E8CD5 /* XMTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestCell.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell.h"; sourceTree = "<absolute>"; };
+		6F4C30681CB6A883006E8CD5 /* XMTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestCell.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell.m"; sourceTree = "<absolute>"; };
+		6F4C30691CB6A883006E8CD5 /* XMTestCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestCell2.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell2.h"; sourceTree = "<absolute>"; };
+		6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestCell2.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell2.m"; sourceTree = "<absolute>"; };
+		6F4C306B1CB6A883006E8CD5 /* XMTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestModel.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel.h"; sourceTree = "<absolute>"; };
+		6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestModel.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel.m"; sourceTree = "<absolute>"; };
+		6F4C306D1CB6A883006E8CD5 /* XMTestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestModel2.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel2.h"; sourceTree = "<absolute>"; };
+		6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestModel2.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel2.m"; sourceTree = "<absolute>"; };
+		6F4C306F1CB6A883006E8CD5 /* XMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestViewController.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestViewController.h"; sourceTree = "<absolute>"; };
+		6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestViewController.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestViewController.m"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4C30261CB6A7FB006E8CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C303F1CB6A7FB006E8CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C304A1CB6A7FC006E8CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F4C30201CB6A7FB006E8CD5 = {
+			isa = PBXGroup;
+			children = (
+				6F4C302B1CB6A7FB006E8CD5 /* XMTableView */,
+				6F4C30451CB6A7FB006E8CD5 /* XMTableViewTests */,
+				6F4C30501CB6A7FC006E8CD5 /* XMTableViewUITests */,
+				6F4C302A1CB6A7FB006E8CD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4C302A1CB6A7FB006E8CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30291CB6A7FB006E8CD5 /* XMTableView.app */,
+				6F4C30421CB6A7FB006E8CD5 /* XMTableViewTests.xctest */,
+				6F4C304D1CB6A7FC006E8CD5 /* XMTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4C302B1CB6A7FB006E8CD5 /* XMTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30601CB6A83F006E8CD5 /* XMTableDemo */,
+				6F4C305F1CB6A815006E8CD5 /* XMTableView */,
+				6F4C302F1CB6A7FB006E8CD5 /* AppDelegate.h */,
+				6F4C30301CB6A7FB006E8CD5 /* AppDelegate.m */,
+				6F4C30321CB6A7FB006E8CD5 /* ViewController.h */,
+				6F4C30331CB6A7FB006E8CD5 /* ViewController.m */,
+				6F4C30351CB6A7FB006E8CD5 /* Main.storyboard */,
+				6F4C30381CB6A7FB006E8CD5 /* Assets.xcassets */,
+				6F4C303A1CB6A7FB006E8CD5 /* LaunchScreen.storyboard */,
+				6F4C303D1CB6A7FB006E8CD5 /* Info.plist */,
+				6F4C302C1CB6A7FB006E8CD5 /* Supporting Files */,
+			);
+			path = XMTableView;
+			sourceTree = "<group>";
+		};
+		6F4C302C1CB6A7FB006E8CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C302D1CB6A7FB006E8CD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F4C30451CB6A7FB006E8CD5 /* XMTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30461CB6A7FB006E8CD5 /* XMTableViewTests.m */,
+				6F4C30481CB6A7FB006E8CD5 /* Info.plist */,
+			);
+			path = XMTableViewTests;
+			sourceTree = "<group>";
+		};
+		6F4C30501CB6A7FC006E8CD5 /* XMTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30511CB6A7FC006E8CD5 /* XMTableViewUITests.m */,
+				6F4C30531CB6A7FC006E8CD5 /* Info.plist */,
+			);
+			path = XMTableViewUITests;
+			sourceTree = "<group>";
+		};
+		6F4C305F1CB6A815006E8CD5 /* XMTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30611CB6A883006E8CD5 /* XMTableObject.h */,
+				6F4C30621CB6A883006E8CD5 /* XMTableObject.m */,
+				6F4C30631CB6A883006E8CD5 /* XMTableViewCell.h */,
+				6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */,
+				6F4C30651CB6A883006E8CD5 /* XMTableViewController.h */,
+				6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */,
+			);
+			name = XMTableView;
+			sourceTree = "<group>";
+		};
+		6F4C30601CB6A83F006E8CD5 /* XMTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F4C30671CB6A883006E8CD5 /* XMTestCell.h */,
+				6F4C30681CB6A883006E8CD5 /* XMTestCell.m */,
+				6F4C30691CB6A883006E8CD5 /* XMTestCell2.h */,
+				6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */,
+				6F4C306B1CB6A883006E8CD5 /* XMTestModel.h */,
+				6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */,
+				6F4C306D1CB6A883006E8CD5 /* XMTestModel2.h */,
+				6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */,
+				6F4C306F1CB6A883006E8CD5 /* XMTestViewController.h */,
+				6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */,
+			);
+			name = XMTableDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4C30281CB6A7FB006E8CD5 /* XMTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4C30561CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableView" */;
+			buildPhases = (
+				6F4C30251CB6A7FB006E8CD5 /* Sources */,
+				6F4C30261CB6A7FB006E8CD5 /* Frameworks */,
+				6F4C30271CB6A7FB006E8CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMTableView;
+			productName = XMTableView;
+			productReference = 6F4C30291CB6A7FB006E8CD5 /* XMTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F4C30411CB6A7FB006E8CD5 /* XMTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4C30591CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewTests" */;
+			buildPhases = (
+				6F4C303E1CB6A7FB006E8CD5 /* Sources */,
+				6F4C303F1CB6A7FB006E8CD5 /* Frameworks */,
+				6F4C30401CB6A7FB006E8CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4C30441CB6A7FB006E8CD5 /* PBXTargetDependency */,
+			);
+			name = XMTableViewTests;
+			productName = XMTableViewTests;
+			productReference = 6F4C30421CB6A7FB006E8CD5 /* XMTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F4C304C1CB6A7FC006E8CD5 /* XMTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4C305C1CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewUITests" */;
+			buildPhases = (
+				6F4C30491CB6A7FC006E8CD5 /* Sources */,
+				6F4C304A1CB6A7FC006E8CD5 /* Frameworks */,
+				6F4C304B1CB6A7FC006E8CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F4C304F1CB6A7FC006E8CD5 /* PBXTargetDependency */,
+			);
+			name = XMTableViewUITests;
+			productName = XMTableViewUITests;
+			productReference = 6F4C304D1CB6A7FC006E8CD5 /* XMTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4C30211CB6A7FB006E8CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huangxy;
+				TargetAttributes = {
+					6F4C30281CB6A7FB006E8CD5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6XAEMMV9TS;
+					};
+					6F4C30411CB6A7FB006E8CD5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6XAEMMV9TS;
+						TestTargetID = 6F4C30281CB6A7FB006E8CD5;
+					};
+					6F4C304C1CB6A7FC006E8CD5 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6XAEMMV9TS;
+						TestTargetID = 6F4C30281CB6A7FB006E8CD5;
+					};
+				};
+			};
+			buildConfigurationList = 6F4C30241CB6A7FB006E8CD5 /* Build configuration list for PBXProject "XMTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4C30201CB6A7FB006E8CD5;
+			productRefGroup = 6F4C302A1CB6A7FB006E8CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4C30281CB6A7FB006E8CD5 /* XMTableView */,
+				6F4C30411CB6A7FB006E8CD5 /* XMTableViewTests */,
+				6F4C304C1CB6A7FC006E8CD5 /* XMTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4C30271CB6A7FB006E8CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C303C1CB6A7FB006E8CD5 /* LaunchScreen.storyboard in Resources */,
+				6F4C30391CB6A7FB006E8CD5 /* Assets.xcassets in Resources */,
+				6F4C30371CB6A7FB006E8CD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C30401CB6A7FB006E8CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C304B1CB6A7FC006E8CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4C30251CB6A7FB006E8CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C30761CB6A883006E8CD5 /* XMTestModel.m in Sources */,
+				6F4C30341CB6A7FB006E8CD5 /* ViewController.m in Sources */,
+				6F4C30721CB6A883006E8CD5 /* XMTableViewCell.m in Sources */,
+				6F4C30741CB6A883006E8CD5 /* XMTestCell.m in Sources */,
+				6F4C30731CB6A883006E8CD5 /* XMTableViewController.m in Sources */,
+				6F4C30311CB6A7FB006E8CD5 /* AppDelegate.m in Sources */,
+				6F4C30711CB6A883006E8CD5 /* XMTableObject.m in Sources */,
+				6F4C30771CB6A883006E8CD5 /* XMTestModel2.m in Sources */,
+				6F4C302E1CB6A7FB006E8CD5 /* main.m in Sources */,
+				6F4C30751CB6A883006E8CD5 /* XMTestCell2.m in Sources */,
+				6F4C30781CB6A883006E8CD5 /* XMTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C303E1CB6A7FB006E8CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C30471CB6A7FB006E8CD5 /* XMTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4C30491CB6A7FC006E8CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C30521CB6A7FC006E8CD5 /* XMTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F4C30441CB6A7FB006E8CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4C30281CB6A7FB006E8CD5 /* XMTableView */;
+			targetProxy = 6F4C30431CB6A7FB006E8CD5 /* PBXContainerItemProxy */;
+		};
+		6F4C304F1CB6A7FC006E8CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4C30281CB6A7FB006E8CD5 /* XMTableView */;
+			targetProxy = 6F4C304E1CB6A7FC006E8CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F4C30351CB6A7FB006E8CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4C30361CB6A7FB006E8CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F4C303A1CB6A7FB006E8CD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4C303B1CB6A7FB006E8CD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4C30541CB6A7FC006E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F4C30551CB6A7FC006E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4C30571CB6A7FC006E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F4C30581CB6A7FC006E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XMTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6F4C305A1CB6A7FC006E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTableView.app/XMTableView";
+			};
+			name = Debug;
+		};
+		6F4C305B1CB6A7FC006E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XMTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMTableView.app/XMTableView";
+			};
+			name = Release;
+		};
+		6F4C305D1CB6A7FC006E8CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F4C305E1CB6A7FC006E8CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XMTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxy.XMTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XMTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4C30241CB6A7FB006E8CD5 /* Build configuration list for PBXProject "XMTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4C30541CB6A7FC006E8CD5 /* Debug */,
+				6F4C30551CB6A7FC006E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4C30561CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4C30571CB6A7FC006E8CD5 /* Debug */,
+				6F4C30581CB6A7FC006E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F4C30591CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4C305A1CB6A7FC006E8CD5 /* Debug */,
+				6F4C305B1CB6A7FC006E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6F4C305C1CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4C305D1CB6A7FC006E8CD5 /* Debug */,
+				6F4C305E1CB6A7FC006E8CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F4C30211CB6A7FB006E8CD5 /* Project object */;
+}
