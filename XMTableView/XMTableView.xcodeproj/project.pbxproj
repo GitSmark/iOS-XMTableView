@@ -15,14 +15,14 @@
 		6F4C303C1CB6A7FB006E8CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4C303A1CB6A7FB006E8CD5 /* LaunchScreen.storyboard */; };
 		6F4C30471CB6A7FB006E8CD5 /* XMTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30461CB6A7FB006E8CD5 /* XMTableViewTests.m */; };
 		6F4C30521CB6A7FC006E8CD5 /* XMTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30511CB6A7FC006E8CD5 /* XMTableViewUITests.m */; };
-		6F4C30711CB6A883006E8CD5 /* XMTableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30621CB6A883006E8CD5 /* XMTableObject.m */; };
-		6F4C30721CB6A883006E8CD5 /* XMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */; };
-		6F4C30731CB6A883006E8CD5 /* XMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */; };
-		6F4C30741CB6A883006E8CD5 /* XMTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30681CB6A883006E8CD5 /* XMTestCell.m */; };
-		6F4C30751CB6A883006E8CD5 /* XMTestCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */; };
-		6F4C30761CB6A883006E8CD5 /* XMTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */; };
-		6F4C30771CB6A883006E8CD5 /* XMTestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */; };
-		6F4C30781CB6A883006E8CD5 /* XMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */; };
+		6F4C30891CB6B323006E8CD5 /* XMTableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C307A1CB6B323006E8CD5 /* XMTableObject.m */; };
+		6F4C308A1CB6B323006E8CD5 /* XMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C307C1CB6B323006E8CD5 /* XMTableViewCell.m */; };
+		6F4C308B1CB6B323006E8CD5 /* XMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C307E1CB6B323006E8CD5 /* XMTableViewController.m */; };
+		6F4C308C1CB6B323006E8CD5 /* XMTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30801CB6B323006E8CD5 /* XMTestCell.m */; };
+		6F4C308D1CB6B323006E8CD5 /* XMTestCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30821CB6B323006E8CD5 /* XMTestCell2.m */; };
+		6F4C308E1CB6B323006E8CD5 /* XMTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30841CB6B323006E8CD5 /* XMTestModel.m */; };
+		6F4C308F1CB6B323006E8CD5 /* XMTestModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30861CB6B323006E8CD5 /* XMTestModel2.m */; };
+		6F4C30901CB6B323006E8CD5 /* XMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C30881CB6B323006E8CD5 /* XMTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,22 +59,22 @@
 		6F4C304D1CB6A7FC006E8CD5 /* XMTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4C30511CB6A7FC006E8CD5 /* XMTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTableViewUITests.m; sourceTree = "<group>"; };
 		6F4C30531CB6A7FC006E8CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F4C30611CB6A883006E8CD5 /* XMTableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableObject.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableObject.h"; sourceTree = "<group>"; };
-		6F4C30621CB6A883006E8CD5 /* XMTableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableObject.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableObject.m"; sourceTree = "<group>"; };
-		6F4C30631CB6A883006E8CD5 /* XMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableViewCell.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewCell.h"; sourceTree = "<group>"; };
-		6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableViewCell.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewCell.m"; sourceTree = "<group>"; };
-		6F4C30651CB6A883006E8CD5 /* XMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTableViewController.h; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewController.h"; sourceTree = "<group>"; };
-		6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTableViewController.m; path = "../../../../../../../Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTableViewController.m"; sourceTree = "<group>"; };
-		6F4C30671CB6A883006E8CD5 /* XMTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestCell.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell.h"; sourceTree = "<absolute>"; };
-		6F4C30681CB6A883006E8CD5 /* XMTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestCell.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell.m"; sourceTree = "<absolute>"; };
-		6F4C30691CB6A883006E8CD5 /* XMTestCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestCell2.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell2.h"; sourceTree = "<absolute>"; };
-		6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestCell2.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestCell2.m"; sourceTree = "<absolute>"; };
-		6F4C306B1CB6A883006E8CD5 /* XMTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestModel.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel.h"; sourceTree = "<absolute>"; };
-		6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestModel.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel.m"; sourceTree = "<absolute>"; };
-		6F4C306D1CB6A883006E8CD5 /* XMTestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestModel2.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel2.h"; sourceTree = "<absolute>"; };
-		6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestModel2.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestModel2.m"; sourceTree = "<absolute>"; };
-		6F4C306F1CB6A883006E8CD5 /* XMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMTestViewController.h; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestViewController.h"; sourceTree = "<absolute>"; };
-		6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMTestViewController.m; path = "/Volumes/VMware Shared Folders/ShareDir/XMTableView/XMTestViewController.m"; sourceTree = "<absolute>"; };
+		6F4C30791CB6B323006E8CD5 /* XMTableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTableObject.h; sourceTree = "<group>"; };
+		6F4C307A1CB6B323006E8CD5 /* XMTableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTableObject.m; sourceTree = "<group>"; };
+		6F4C307B1CB6B323006E8CD5 /* XMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTableViewCell.h; sourceTree = "<group>"; };
+		6F4C307C1CB6B323006E8CD5 /* XMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTableViewCell.m; sourceTree = "<group>"; };
+		6F4C307D1CB6B323006E8CD5 /* XMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTableViewController.h; sourceTree = "<group>"; };
+		6F4C307E1CB6B323006E8CD5 /* XMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTableViewController.m; sourceTree = "<group>"; };
+		6F4C307F1CB6B323006E8CD5 /* XMTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTestCell.h; sourceTree = "<group>"; };
+		6F4C30801CB6B323006E8CD5 /* XMTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTestCell.m; sourceTree = "<group>"; };
+		6F4C30811CB6B323006E8CD5 /* XMTestCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTestCell2.h; sourceTree = "<group>"; };
+		6F4C30821CB6B323006E8CD5 /* XMTestCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTestCell2.m; sourceTree = "<group>"; };
+		6F4C30831CB6B323006E8CD5 /* XMTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTestModel.h; sourceTree = "<group>"; };
+		6F4C30841CB6B323006E8CD5 /* XMTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTestModel.m; sourceTree = "<group>"; };
+		6F4C30851CB6B323006E8CD5 /* XMTestModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTestModel2.h; sourceTree = "<group>"; };
+		6F4C30861CB6B323006E8CD5 /* XMTestModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTestModel2.m; sourceTree = "<group>"; };
+		6F4C30871CB6B323006E8CD5 /* XMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTestViewController.h; sourceTree = "<group>"; };
+		6F4C30881CB6B323006E8CD5 /* XMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,12 +169,12 @@
 		6F4C305F1CB6A815006E8CD5 /* XMTableView */ = {
 			isa = PBXGroup;
 			children = (
-				6F4C30611CB6A883006E8CD5 /* XMTableObject.h */,
-				6F4C30621CB6A883006E8CD5 /* XMTableObject.m */,
-				6F4C30631CB6A883006E8CD5 /* XMTableViewCell.h */,
-				6F4C30641CB6A883006E8CD5 /* XMTableViewCell.m */,
-				6F4C30651CB6A883006E8CD5 /* XMTableViewController.h */,
-				6F4C30661CB6A883006E8CD5 /* XMTableViewController.m */,
+				6F4C30791CB6B323006E8CD5 /* XMTableObject.h */,
+				6F4C307A1CB6B323006E8CD5 /* XMTableObject.m */,
+				6F4C307B1CB6B323006E8CD5 /* XMTableViewCell.h */,
+				6F4C307C1CB6B323006E8CD5 /* XMTableViewCell.m */,
+				6F4C307D1CB6B323006E8CD5 /* XMTableViewController.h */,
+				6F4C307E1CB6B323006E8CD5 /* XMTableViewController.m */,
 			);
 			name = XMTableView;
 			sourceTree = "<group>";
@@ -182,16 +182,16 @@
 		6F4C30601CB6A83F006E8CD5 /* XMTableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F4C30671CB6A883006E8CD5 /* XMTestCell.h */,
-				6F4C30681CB6A883006E8CD5 /* XMTestCell.m */,
-				6F4C30691CB6A883006E8CD5 /* XMTestCell2.h */,
-				6F4C306A1CB6A883006E8CD5 /* XMTestCell2.m */,
-				6F4C306B1CB6A883006E8CD5 /* XMTestModel.h */,
-				6F4C306C1CB6A883006E8CD5 /* XMTestModel.m */,
-				6F4C306D1CB6A883006E8CD5 /* XMTestModel2.h */,
-				6F4C306E1CB6A883006E8CD5 /* XMTestModel2.m */,
-				6F4C306F1CB6A883006E8CD5 /* XMTestViewController.h */,
-				6F4C30701CB6A883006E8CD5 /* XMTestViewController.m */,
+				6F4C307F1CB6B323006E8CD5 /* XMTestCell.h */,
+				6F4C30801CB6B323006E8CD5 /* XMTestCell.m */,
+				6F4C30811CB6B323006E8CD5 /* XMTestCell2.h */,
+				6F4C30821CB6B323006E8CD5 /* XMTestCell2.m */,
+				6F4C30831CB6B323006E8CD5 /* XMTestModel.h */,
+				6F4C30841CB6B323006E8CD5 /* XMTestModel.m */,
+				6F4C30851CB6B323006E8CD5 /* XMTestModel2.h */,
+				6F4C30861CB6B323006E8CD5 /* XMTestModel2.m */,
+				6F4C30871CB6B323006E8CD5 /* XMTestViewController.h */,
+				6F4C30881CB6B323006E8CD5 /* XMTestViewController.m */,
 			);
 			name = XMTableDemo;
 			sourceTree = "<group>";
@@ -329,17 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4C30761CB6A883006E8CD5 /* XMTestModel.m in Sources */,
+				6F4C308E1CB6B323006E8CD5 /* XMTestModel.m in Sources */,
 				6F4C30341CB6A7FB006E8CD5 /* ViewController.m in Sources */,
-				6F4C30721CB6A883006E8CD5 /* XMTableViewCell.m in Sources */,
-				6F4C30741CB6A883006E8CD5 /* XMTestCell.m in Sources */,
-				6F4C30731CB6A883006E8CD5 /* XMTableViewController.m in Sources */,
+				6F4C308A1CB6B323006E8CD5 /* XMTableViewCell.m in Sources */,
+				6F4C308C1CB6B323006E8CD5 /* XMTestCell.m in Sources */,
+				6F4C308B1CB6B323006E8CD5 /* XMTableViewController.m in Sources */,
 				6F4C30311CB6A7FB006E8CD5 /* AppDelegate.m in Sources */,
-				6F4C30711CB6A883006E8CD5 /* XMTableObject.m in Sources */,
-				6F4C30771CB6A883006E8CD5 /* XMTestModel2.m in Sources */,
+				6F4C30891CB6B323006E8CD5 /* XMTableObject.m in Sources */,
+				6F4C308F1CB6B323006E8CD5 /* XMTestModel2.m in Sources */,
 				6F4C302E1CB6A7FB006E8CD5 /* main.m in Sources */,
-				6F4C30751CB6A883006E8CD5 /* XMTestCell2.m in Sources */,
-				6F4C30781CB6A883006E8CD5 /* XMTestViewController.m in Sources */,
+				6F4C308D1CB6B323006E8CD5 /* XMTestCell2.m in Sources */,
+				6F4C30901CB6B323006E8CD5 /* XMTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +563,7 @@
 				6F4C30581CB6A7FC006E8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F4C30591CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +572,7 @@
 				6F4C305B1CB6A7FC006E8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F4C305C1CB6A7FC006E8CD5 /* Build configuration list for PBXNativeTarget "XMTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +581,7 @@
 				6F4C305E1CB6A7FC006E8CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
