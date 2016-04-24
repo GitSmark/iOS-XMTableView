@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XMTableObject.h"
 
 @interface XMTableViewController : UITableViewController
 
@@ -13,6 +14,7 @@
 @property (nonatomic, assign) BOOL dataGrounp;
 @property (nonatomic, copy) Class cellClass;
 
+- (XMTableObject *)ModelForCellAtIndexPath:(NSIndexPath *)indexPath;
 - (void)setXMPullRefresh;
 - (void)XMPullRefresh;
 
