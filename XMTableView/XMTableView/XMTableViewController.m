@@ -66,12 +66,7 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    XMTableObject *object = nil;
-    if (!self.dataGrounp) {
-        object = self.dataArray[indexPath.row];
-    } else {
-        object = [self.dataArray[indexPath.section] objectAtIndex:indexPath.row];
-    }
+    XMTableObject *object = [self ModelForCellAtIndexPath:indexPath];
     XMTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Identifier];
     NSLog(@"cellclass = %@", cell);
     if (!cell) {
@@ -79,6 +74,17 @@
     }
     cell.XMObject = object;
     return cell;
+}
+
+
+- (XMTableObject *)ModelForCellAtIndexPath:(NSIndexPath *)indexPath {
+    XMTableObject *model = nil;
+    if (!self.dataGrounp) {
+        model = self.dataArray[indexPath.row];
+    } else {
+        model = [self.dataArray[indexPath.section] objectAtIndex:indexPath.row];
+    }
+    return model;
 }
 
 /*
