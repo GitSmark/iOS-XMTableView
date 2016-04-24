@@ -38,6 +38,15 @@ self.dataArray = [[NSMutableArray alloc] initWithArray:@[@[obj1, obj1, obj1, obj
 }
 ```
 
+#####选中事件处理
+```objc
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    XMTableObject *object = [self ModelForCellAtIndexPath:indexPath];
+//    UIViewController *Vc = [[object.ViewControllerClass alloc] init];
+//    [self.navigationController pushViewController:Vc animated:YES];
+}
+```
+
 建议搭配
 --------
 * [SDAutoLayout](https://github.com/gsdios/SDAutoLayout) 一行代码搞定自动布局！支持高度自适应.
