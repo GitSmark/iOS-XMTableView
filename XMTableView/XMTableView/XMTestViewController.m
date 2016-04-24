@@ -47,7 +47,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    XMTableObject *object = [self.dataArray[indexPath.section] objectAtIndex:indexPath.row];
+//    XMTableObject *object = [self ModelForCellAtIndexPath:indexPath];
 //    UIViewController *Vc = [[object.ViewControllerClass alloc] init];
 //    [self.navigationController pushViewController:Vc animated:YES];
 }
